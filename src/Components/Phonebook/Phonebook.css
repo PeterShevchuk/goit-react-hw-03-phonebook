@@ -1,0 +1,13 @@
+.form {
+  display: flex;
+  align-items: flex-end;
+}
+
+.form > *:not(:last-child) {
+  margin-right: 10px;
+}
+
+.form__send {
+  padding: 10px 20px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,19 @@
+.contacts__item {
+  list-style: none;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contacts__item-delete {
+  /* padding: 5px 10px; */
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+.contacts__item-delete:hover {
+  transform: scale(1.1);
+}

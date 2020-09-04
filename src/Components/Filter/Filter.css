@@ -1,0 +1,9 @@
+.form_input {
+  position: relative;
+}
+.form__delete {
+  position: absolute;
+  top: -1px;
+  right: 5px;
+  cursor: pointer;
+}
